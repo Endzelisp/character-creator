@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -35,4 +36,12 @@
 .controlColumn {
   width: 50%;
   overflow: hidden;
+}
+
+.persectiveEffect {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 250px;
+  background-color: hsl(195deg, 20%, 86%);
 }
